@@ -2,13 +2,6 @@
 
 Aplicativo Flutter para gerenciamento de garantias e notas fiscais.
 
-## Como rodar
-
-```bash
-flutter pub get
-flutter run
-```
-
 ## Conta de demonstração
 
 | Campo | Valor |
@@ -52,20 +45,8 @@ lib/
 
 ```
 
-## Requisitos implementados
-
-| RF | Descrição | Peso |
-|----|-----------|------|
-| RF001 | Login com validação de e-mail e senha | 25% (junto RF002+003) |
-| RF002 | Cadastro de usuário com 5 campos e validações | — |
-| RF003 | Recuperação de senha (mockada) | — |
-| RF004 | Tela Sobre com equipe e informações acadêmicas | 5% |
-| RF005 | 5 funcionalidades: Cadastrar, Detalhe, Editar, Alertas, Excluir | 50% |
-| RF006 | AlertDialog e SnackBar em todo o app | 5% |
-| RF007 | ListView com cards estilizados por status | 15% |
-
 ## Equipe
 
-- **Nicolas** — Líder técnico, Setup, RF001, Cadastrar e Detalhe produto
-- **Felipe** — RF002, RF003, RF004, Editar produto, RF006
-- **Botoloto** — Modelo Usuario, RF007 (Home + Cards), Alertas, Excluir, Navegação, README
+- **Nicolas Oliveira** — Líder técnico, Setup, RF001, Cadastrar e Detalhe produto
+- **Felipe Fragiorgis** — RF002, RF003, RF004, Editar produto, RF006
+- **Enzo Botoloto** — Modelo Usuario, RF007 (Home + Cards), Alertas, Excluir, Navegação, README
